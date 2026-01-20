@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <header class="toggle">
+      <label class="toggle-switch">
+        <input type="checkbox" />
+        <div class="toggle-switch-background">
+          <div class="toggle-switch-handle"></div>
+        </div>
+      </label>
+    </header>
+    <div class="father">
+      <div class="calculator">
+        <div class="screen">
+          <p class="show__number">0</p>
+        </div>
+
+        <div class="buttons">
+          <button class="btn operator" data-name="AC">AC</button>
+          <button class="btn operator" data-name="divides">÷</button>
+          <button class="btn operator" data-name="times">×</button>
+          <button class="btn operator" data-name="remove">⌫</button>
+
+          <button class="btn" data-name="number">7</button>
+          <button class="btn" data-name="number">8</button>
+          <button class="btn" data-name="number">9</button>
+          <button class="btn operator" data-name="minus">-</button>
+
+          <button class="btn" data-name="number">4</button>
+          <button class="btn" data-name="number">5</button>
+          <button class="btn" data-name="number">6</button>
+          <button class="btn operator" data-name="add">+</button>
+
+          <button class="btn" data-name="number">1</button>
+          <button class="btn" data-name="number">2</button>
+          <button class="btn" data-name="number">3</button>
+          <button class="btn equal" data-name="equal__value">=</button>
+
+          <button class="btn zero" data-name="number">0</button>
+          <button class="btn" data-name="number">.</button>
+        </div>
+      </div>
+    </div>
+    <script src="./scriptes/scipt.js"></script>
+  </body>
+</html>
