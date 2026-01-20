@@ -5,13 +5,14 @@
 }
 body {
   background: #1e1e1e;
+  overflow: hidden;
 }
 .change__background__color {
   background-color: white;
   transition: 1s;
 }
 .toggle {
-  padding: 2% 4%;
+  padding: 2% 4% 0 0;
   display: flex;
   justify-content: end;
   align-items: center;
