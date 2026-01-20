@@ -16,6 +16,11 @@ body {
   justify-content: end;
   align-items: center;
 }
+@media screen and (max-width: 767px) {
+  .toggle {
+    padding: 8% 6%;
+  }
+}
 /* toogle start */
 /* From Uiverse.io by ErzenXz */
 .toggle-switch {
